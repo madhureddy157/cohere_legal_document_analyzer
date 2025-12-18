@@ -6,7 +6,7 @@ An AI-powered web application that assists lawyers, legal professionals, and res
 
 ## 🚀 Features
 
-- 📂 Upload `.pdf` or `.docx` files
+- 📂 Upload `.pdf` or `.docx` file
 - 🧠 Argument Mining – detect legal arguments and logic
 - 👥 Entity & Relationship Extraction
 - 📄 Clause Simplification – convert legal jargon to plain English
