@@ -1,23 +1,23 @@
-# 📚 Legal Document Analyzer
+#  Legal Document Analyzer
 
 An AI-powered web application that assists lawyers, legal professionals, and researchers by analyzing legal documents using Natural Language Processing (NLP). It extracts entities, identifies arguments, explains clauses, summarizes documents, suggests strategies, answers legal queries, and predicts risks — all powered by the **Cohere Command-Light API**.
 
 ---
 
-## 🚀 Features
+##  Features
 
-- 📂 Upload `.pdf` or `.docx` file
-- 🧠 Argument Mining – detect legal arguments and logic
-- 👥 Entity & Relationship Extraction
-- 📄 Clause Simplification – convert legal jargon to plain English
-- 📝 Document Summarization
-- 🧭 Strategy Suggestions – get suggested next steps
-- 💬 Legal Chatbot – ask context-based legal questions
-- 📈 Risk Prediction – estimate litigation risk for plaintiff and defendant
+-  Upload `.pdf` or `.docx` file
+-  Argument Mining – detect legal arguments and logic
+-  Entity & Relationship Extraction
+-  Clause Simplification – convert legal jargon to plain English
+-  Document Summarization
+-  Strategy Suggestions – get suggested next steps
+-  Legal Chatbot – ask context-based legal questions
+-  Risk Prediction – estimate litigation risk for plaintiff and defendant
 
 ---
 
-## 🛠️ Tech Stack & Tools
+##  Tech Stack & Tools
 
 | Component              | Technology                     |
 |------------------------|---------------------------------|
@@ -31,7 +31,7 @@ An AI-powered web application that assists lawyers, legal professionals, and res
 
 ---
 
-## 🧩 Project Structure & Modules
+##  Project Structure & Modules
 ```text
 project/
 ├── app.py # Streamlit app (optional UI)
@@ -46,7 +46,7 @@ project/
 
 ---
 
-### 📁 `index.html`
+###  `index.html`
 
 - Web-based user interface
 - Upload PDF/DOCX files
@@ -55,7 +55,7 @@ project/
 
 ---
 
-### 🐍 `main.py` (FastAPI Backend)
+###  `main.py` (FastAPI Backend)
 
 - Hosts REST API endpoints:
   - `/upload/`
@@ -71,7 +71,7 @@ project/
 
 ---
 
-### 🤖 `cohere_utils.py`
+###  `cohere_utils.py`
 
 - Connects to Cohere's LLM
 - Defines logic for:
@@ -91,7 +91,7 @@ project/
 ---
 
 
-### 📄 `app.py` (Streamlit GUI)
+###  `app.py` (Streamlit GUI)
 
 - Optional user-friendly dashboard  
 - Drag-and-drop file upload  
@@ -99,9 +99,9 @@ project/
 
 ---
 
-## 📦 Dependencies
+##  Dependencies
 
-### 📄 `requirements.txt`
+###  `requirements.txt`
 
 ```txt
 fastapi
