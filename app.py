@@ -97,3 +97,4 @@ if extracted_text:
             st.info("No valid Plaintiff or Defendant risk scores found in the response.")
 else:
     st.info("Upload a file or paste text to begin.")
+
